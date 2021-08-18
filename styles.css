@@ -1,0 +1,59 @@
+header#encabezadoPrincipal > h1 {
+  text-align: center;
+}
+
+#nueva {
+  display: flex;
+  flex-direction: row;
+}
+
+#nueva > input {
+  flex-grow: 2;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+ul#listado {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+}
+
+ul#listado > li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+ul#listado > li div {
+  display: flex;
+  flex-direction: row;
+}
+
+ul#listado > li div input[type="checkbox"] {
+  margin-right: 1rem;
+}
+
+ul#listado > li div p {
+  margin: 0;
+}
+
+ul#listado > li div input:checked + p {
+  text-decoration: line-through;
+  background-color: red;
+}
+
+ul#listado > li button {
+  background-color: transparent;
+  border: 1px solid #000;
+}
+
+ul#listado > li button > svg {
+  width: 2rem;
+  fill: red;
+  opacity: 0.5;
+}
+/*# sourceMappingURL=styles.css.map */
